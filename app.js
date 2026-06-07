@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", () => {
     formData.append("timestamp", new Date().toISOString());
 
     // Submit to Google Sheets web app
-    fetch("https://script.google.com/macros/s/AKfycbzaM-pc48XU1IXkrpQbvQ-A7MukhVI8jgKoQK9BXtAoMWv6dZE_YBiR19LniV-SMLk_qg/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzy0d3lCaeVl7n1s6sMsLhKusJ-OFD3rhHnsKLWLiJjKzqr-Yq5MORqblmmCMht6bIjqQ/exec", {
       method: "POST",
       body: new URLSearchParams(formData),
       mode: "no-cors"
