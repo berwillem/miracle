@@ -44,6 +44,7 @@ const translations = {
         serviceSpaceRental: "Location d'espaces",
         serviceShooting: "Shooting",
         serviceGraphics: "Création graphique",
+        serviceWebCreation: "Création de site web",
         serviceOther: "Autre",
 
         budgetLabel: "Budget estimé",
@@ -63,7 +64,8 @@ const translations = {
         // Errors
         errRequired: "Ce champ est obligatoire",
         errEmail: "Veuillez entrer une adresse email valide",
-        errPhone: "Veuillez entrer un numéro de téléphone valide"
+        errPhone: "Veuillez entrer un numéro de téléphone valide",
+        errSubmit: "Une erreur est survenue lors de l'envoi. Veuillez réessayer."
     },
     en: {
         tagline: "Let's create the extraordinary together",
@@ -110,6 +112,7 @@ const translations = {
         serviceSpaceRental: "Space Rental",
         serviceShooting: "Shooting / Photoshoot",
         serviceGraphics: "Graphic Design",
+        serviceWebCreation: "Web creation / Website design",
         serviceOther: "Other",
 
         budgetLabel: "Estimated Budget",
@@ -129,7 +132,8 @@ const translations = {
         // Errors
         errRequired: "This field is required",
         errEmail: "Please enter a valid email address",
-        errPhone: "Please enter a valid phone number"
+        errPhone: "Please enter a valid phone number",
+        errSubmit: "An error occurred while sending your request. Please try again."
     },
     ar: {
         tagline: "دعونا نصنع الاستثنائي معاً",
@@ -176,6 +180,7 @@ const translations = {
         serviceSpaceRental: "تأجير المساحات والقاعات",
         serviceShooting: "جلسات التصوير الاحترافية",
         serviceGraphics: "التصميم الجرافيكي والابتكار الفني",
+        serviceWebCreation: "إنشاء مواقع الويب",
         serviceOther: "خدمة أخرى",
 
         budgetLabel: "الميزانية التقديرية",
@@ -195,6 +200,7 @@ const translations = {
         // Errors
         errRequired: "هذا الحقل مطلوب ولا يمكن تركه فارغاً",
         errEmail: "يرجى إدخال عنوان بريد إلكتروني صحيح وصالح",
-        errPhone: "يرجى إدخال رقم هاتف صحيح"
+        errPhone: "يرجى إدخال رقم هاتف صحيح",
+        errSubmit: "حدث خطأ أثناء إرسال طلبك. يرجى المحاولة مرة أخرى."
     }
 };
